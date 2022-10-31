@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89559d40-f8e7-4564-9441-667b2867418d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/concurrent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrent/src/main/java/pers/swd/magic/Unsafe0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrent/src/main/java/pers/swd/magic/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/src/main/java/pers/swd/magic/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrent/src/test/java/pers/swd/magic/Unsafe0Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/src/test/java/pers/swd/magic/Unsafe0Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,34 +31,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.Unsafe0Test">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.swd.Main" />
-      <module name="concurrent" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pers.swd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="JUnit.Unsafe0Test.test_compareAndSwapInt">
     <configuration name="Unsafe0Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="concurrent" />
       <extension name="coverage">
@@ -90,11 +77,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unsafe0Test.test_allocateInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.swd.magic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pers.swd.magic" />
+      <option name="MAIN_CLASS_NAME" value="pers.swd.magic.Unsafe0Test" />
+      <option name="METHOD_NAME" value="test_allocateInstance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unsafe0Test.test_compareAndSwapInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.swd.magic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pers.swd.magic" />
+      <option name="MAIN_CLASS_NAME" value="pers.swd.magic.Unsafe0Test" />
+      <option name="METHOD_NAME" value="test_compareAndSwapInt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unsafe0Test.test_throwException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.swd.magic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pers.swd.magic" />
+      <option name="MAIN_CLASS_NAME" value="pers.swd.magic.Unsafe0Test" />
+      <option name="METHOD_NAME" value="test_throwException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Unsafe0Test" />
+        <item itemvalue="JUnit.Unsafe0Test.test_compareAndSwapInt" />
         <item itemvalue="JUnit.Unsafe0Test.test_" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Unsafe0Test.test_throwException" />
+        <item itemvalue="JUnit.Unsafe0Test.test_allocateInstance" />
+        <item itemvalue="JUnit.Unsafe0Test" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +143,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667143569402</updated>
-      <workItem from="1667143570439" duration="473000" />
+      <workItem from="1667143570439" duration="750000" />
+      <workItem from="1667192732323" duration="1792000" />
     </task>
     <servers />
   </component>
